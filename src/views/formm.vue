@@ -1,5 +1,5 @@
 <script>
- import BaseInput from "../components/BaseInput.vue";
+
 export default {
 
   name: "TestView",
@@ -15,7 +15,6 @@ export default {
       gender: [{ text: "Select One", value: null }, "male","female"],
     };
   },
-  components: { BaseInput },
   methods: {
     submitt() {
       console.log(JSON.stringify(this.input));
